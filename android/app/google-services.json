@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "239874151024",
+    "project_id": "arcularplus-7e66c",
+    "storage_bucket": "arcularplus-7e66c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239874151024:android:7e0d9de0400c6bb9fb5ab5",
+        "android_client_info": {
+          "package_name": "com.example.arcular_plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239874151024-6cckbeqm9pda4v7r38sgeims4ujpea2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arcular_plus",
+            "certificate_hash": "dbf01c938e23d2b080a2af50581a3f787953bf47"
+          }
+        },
+        {
+          "client_id": "239874151024-o7pgb84vn0paqdncj95rijqa2ngagd8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzK4SQ44cv6k8EiNF9B2agNASArWQrstk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239874151024-o7pgb84vn0paqdncj95rijqa2ngagd8i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "239874151024-bqghc9pqha7m3khd6ea5qa7ip8rcqon8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arcularPlus"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239874151024:android:fb521d03ed46195dfb5ab5",
+        "android_client_info": {
+          "package_name": "com.shovin.arcularplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239874151024-8n4d5mgq3oc7pujg7u7f40cr64jkb1r2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shovin.arcularplus",
+            "certificate_hash": "dbf01c938e23d2b080a2af50581a3f787953bf47"
+          }
+        },
+        {
+          "client_id": "239874151024-o7pgb84vn0paqdncj95rijqa2ngagd8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzK4SQ44cv6k8EiNF9B2agNASArWQrstk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239874151024-o7pgb84vn0paqdncj95rijqa2ngagd8i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "239874151024-bqghc9pqha7m3khd6ea5qa7ip8rcqon8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arcularPlus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

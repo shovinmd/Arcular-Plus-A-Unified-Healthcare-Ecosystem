@@ -1,0 +1,174 @@
+name: arcular_plus
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.3+2
+
+
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  firebase_messaging: ^15.1.3
+  cloud_firestore: ^5.6.11
+  firebase_storage: ^12.4.9
+  google_sign_in: ^6.1.6
+  shared_preferences: ^2.2.2
+  http: ^1.0.0
+  image_picker: ^1.0.4
+  path: ^1.8.3
+  intl: ^0.20.2
+  google_generative_ai: ^0.4.7
+  qr_flutter: ^4.1.0
+  file_picker: ^10.2.0
+  table_calendar: ^3.0.9
+  url_launcher: ^6.2.1
+  geolocator: ^14.0.2
+  google_maps_flutter: ^2.12.3
+  geocoding: ^4.0.0
+  flutter_phone_direct_caller: ^2.1.1
+  share_plus: ^11.0.0
+  path_provider: ^2.1.1
+  flutter_local_notifications: ^19.3.0
+  timezone: ^0.10.1
+  mobile_scanner: ^7.0.1
+  uuid: ^4.3.3
+  flutter_neumorphic: 3.2.0
+  glassmorphism: ^3.0.0
+  flutter_animate: ^4.2.0
+  fl_chart: ^1.1.0
+  eva_icons_flutter: ^3.0.0
+  # or, if you want Feather icons:
+  flutter_feather_icons: ^2.0.0
+  # Remove or comment out the webview_flutter dependency
+  webview_flutter: ^4.7.0
+  google_fonts: ^6.1.0
+  # Voice and Speech Recognition - COMPLETELY REMOVED
+  # speech_to_text: ^6.6.0
+  # flutter_tts: ^3.8.5
+  permission_handler: ^12.0.1
+  # Image processing for medical reports
+  
+  # Audio processing for wake word - COMPLETELY REMOVED
+  # record: ^5.0.4
+  # just_audio: ^0.9.36 - REMOVED (only needed for voice)
+  connectivity_plus: ^5.0.2
+  
+  # SOS Alert System
+  vibration: ^3.1.4
+  audioplayers: ^6.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Icon.png"
+  web:
+    generate: true
+    image_path: "assets/images/Icon.png"
+  windows:
+    generate: true
+    image_path: "assets/images/Icon.png"
+  macos:
+    generate: true
+    image_path: "assets/images/Icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/intro.gif      # Mobile/Android GIF
+    - assets/images/introweb.gif   # Web GIF
+    - assets/images/logo.png
+    - assets/images/Icon.png
+    - assets/images/ChatArc.png
+    - assets/images/logo1.png
+    - assets/images/notify icon.jpg
+    - assets/images/google_logo.png
+    
+    # SOS Alert Audio
+    - assets/images/audio/
+    
+    # Male role-based images
+    - assets/images/Male/
+    - assets/images/Male/doc/
+    - assets/images/Male/hosp/
+    - assets/images/Male/lab/
+    - assets/images/Male/nurs/
+    - assets/images/Male/pharm/
+    - assets/images/Male/pat/
+    
+    # Female role-based images
+    - assets/images/Female/
+    - assets/images/Female/doc/
+    - assets/images/Female/hosp/
+    - assets/images/Female/lab/
+    - assets/images/Female/nurs/
+    - assets/images/Female/pharm/
+    - assets/images/Female/pat/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
